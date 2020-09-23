@@ -10,7 +10,7 @@ namespace repo
     {
         static void Main(string[] args)
         {
-            int szam = 0
+            int szam = 0;
             for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine("adjon meg az {0} számot", i);
