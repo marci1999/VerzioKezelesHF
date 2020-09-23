@@ -15,6 +15,8 @@ namespace repo
             {
                 Console.WriteLine("adjon meg az {0} számot", i);
                 szam = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("a számok átlaga: "+(szam / 10));
             }
         }
     }
