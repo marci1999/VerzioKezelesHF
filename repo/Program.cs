@@ -11,7 +11,9 @@ namespace repo
         static void Main(string[] args)
         {
             int szam = 0;
-            for (int i = 0; i < 10; i++)
+            Console.WriteLine("hány szmotszeretne megadin?");
+            int n = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i < n; i++)
             {
                 Console.WriteLine("adjon meg az {0} számot", i);
                 szam = Convert.ToInt32(Console.ReadLine());
