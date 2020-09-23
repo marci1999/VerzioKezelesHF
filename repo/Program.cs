@@ -10,8 +10,12 @@ namespace repo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("adjon meg egy számot");
-            int szam = Convert.ToInt32(Console.ReadLine());
+            int szam = 0
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("adjon meg az {0} számot", i);
+                szam = Convert.ToInt32(Console.ReadLine());
+            }
         }
     }
 }
